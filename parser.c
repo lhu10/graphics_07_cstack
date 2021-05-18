@@ -265,7 +265,7 @@ void parse_file ( char * filename,
 
     else if ( strncmp(line, "display", strlen(line)) == 0 ) {
       //printf("DISPLAY\t%s", line);
-      //display( s );
+      display( s );
     }//end display
 
     else if ( strncmp(line, "save", strlen(line)) == 0 ) {
